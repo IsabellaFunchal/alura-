@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Pacifico&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Aventura - Isabella Funchal</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="comeco" alt="">
+            <p>Enquanto voltava para casa da escola, notei que perto do caminho haviam 2 àreas inexploradas: Uma caverna e um bosque! Então, decidi me aventurar por eles.</p>
+            <button class="btn-proximo" data-proximo="1">Caverna</button>
+            <button class="btn-proximo" data-proximo="2">Bosque</button>
+    </div>
+            <div class="passo" id="passo-1">
+                <p>Você começa sua aventura pela caverna, até se deparar com uma bifurcação.</p>
+                <img src="caverna entrada.jpg" alt="escolha">
+                <button class="btn-proximo" data-proximo="3">Esquerda</button>
+                <button class="btn-proximo" data-proximo="4">Direita</button>
+                <button class="btn-proximo" data-proximo="5">Quer saber? Estou fora</button>
+            </div>
+            <div class="passo" id="passo-4">
+                <p>Bom, não tem nada demais por aqui, talvez você devesse ter seguido outro caminho.</p>
+                <img src="caverna normal.webp" alt="nada">
+                <button class="btn-proximo" data-proximo="3">Tomar o caminho da esquerda</button>
+                <button class="btn-proximo" data-proximo="5">Desistir</button>
+            </div>
+
+            <div class="passo" id="passo-2">
+                <p>No bosque, você escuta barulhos à distância</p>
+                <img src="bosque.avif" alt="bosque">
+                <button class="btn-proximo" data-proximo="6">Investigar o barulho</button>
+                <button class="btn-proximo" data-proximo="7">Se afastar</button>
+            </div>
+            <div class="passo" id="passo-3">
+                <p>Você se depara com uma caverna cheia de diamantes! Que tesouro!</p>
+                <img src="caverna diamante.avif" alt="encontrando diamantes na caverna">
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="casa.avif" alt="desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas se pergunta o que teria encontrado.</p>
+    </div>
+
+        <div class="passo" id="passo-6">
+                <p>Que surpresa! Parece que você não foi a ùnica pessoa a decidir explorar o bosque, você encontra seus colegas no meio de um piquenique.</p>
+                <button class="btn-proximo" data-proximo="8">Se juntar a eles</button>
+                <button class="btn-proximo" data-proximo="9">Já chega por hoje, voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="casa noite.jpeg" alt="perda de tempo">
+            <p>Você anda por algumas horas e acaba se perdendo, está escuro e agora sua única escolha é voltar para casa.</p>
+    </div>
+
+        <div class="passo" id="passo-8">
+            <p>Foi muito divertido!</p>
+            <img src="piquenique.avif" alt="piquenique com amigos">
+    </div>
+    <div class="passo" id="passo-9">
+        <p>Depois de um longo dia sem muito para contar, você volta para casa.</p>
+        <img src="casa.avif" alt="antissocial">
+
+
+
+    </main>
+
+                <script src="script.js"></script>
+</body>
+</html>
